@@ -41,3 +41,10 @@ interproscan.sh -i OG.fa -b OG.fa.iprscan -goterms -iprlookup -pa -dp -cpu 24
 #syntenic blocks
 python -m jcvi.graphics.karyotype seqids layout; mv karyotype.pdf Syn.Mapol.Riflu.rbh.karyotype.pdf
 
+# Evolution and Phylogenetic analyses
+muscle -align Mapol_MpVg00160.2.fa.all.fasta.m8.new.fasta -output Mapol_MpVg00160.2.fa.all.fasta.m8.new.fasta.muscle
+#mafft --maxiterate 100 --thread 20 --localpair Mapol_MpVg00160.2.fa.all.fasta.m8.new.fasta > Mapol_MpVg00160.2.fa.all.fasta.m8.new.fasta.mafft
+trimal -in Mapol_MpVg00160.2.fa.all.fasta.m8.new.fasta.muscle -out Mapol_MpVg00160.2.fa.all.fasta.m8.new.fasta.muscle.trimal -automated1
+fasttree Mapol_MpVg00160.2.fa.all.fasta.m8.new.fasta.muscle.trimal > Mapol_MpVg00160.2.fa.all.fasta.m8.new.fasta.muscle.trimal.fast.tree
+fa2phy Mapol_MpVg00160.2.fa.all.fasta.m8.new.fasta.muscle.trimal > Mapol_MpVg00160.2.fa.all.fasta.m8.new.fasta.muscle.trimal.phy
+iqtree -s Mapol_MpVg00160.2.fa.all.fasta.m8.new.fasta.muscle.trimal.phy -m MFP -B 1000 --bnni -T AUTO
