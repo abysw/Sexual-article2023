@@ -1,3 +1,8 @@
+ File Name: README.md
+ Author  : fuyuan, Yuan-SW-F, yuanswf@163.com
+ github  : abysw
+ Created Time: 2023-06-5
+
 # Sexual-article2023
 The script used in a study of sexual translocation.
 
