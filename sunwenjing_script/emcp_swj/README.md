@@ -1,2 +1,2 @@
 # emcp
-some script changed by Wenjing Sun
+some scripts changed by Wenjing Sun
