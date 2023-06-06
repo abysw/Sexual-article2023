@@ -27,6 +27,8 @@ Calculate specific genefamily in Extend Data Fig.8a.
 ##### abysw.wgdicol.pl
 Change the color of each chromosomes when useing wgdi.
 
+##### run_enrich.sh
+GO enrichment
 
 ### Citation:
 please cite the paper: An unusual chromosomal remodeling and sexual transition in plants.
