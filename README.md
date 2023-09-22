@@ -1,34 +1,35 @@
- File Name: README.md
- Author  : fuyuan, Yuan-SW-F, yuanswf@163.com
- github  : abysw
- Created Time: 2023-06-5
+File Name: README.md
+Author: fuyuan, Yuan-SW-F, fuyuan@ibcas.ac.cn
+Github: abysw
+Created Time: 2023/06/05
 
 # Sexual-article2023
-The script used in a study of sexual translocation.
+The scripts utilized in the study of sexual translocation.
 
 ##### abysw.script.2023.sh
-The script uesd in this study gor genome assembly, annotation and syntenic.
+The script employed in this study for genome assembly, annotation, and syntenic analysis.
 
 ##### abysw.3dDNA.sh
-Useing clean hic data to construct chromosomes.
+Utilizing clean HIC sequences to construct chromosomes.
 
 ##### abysw.draw.tree.pl
-Redraw tree by class of species information.
+Re-drawing the tree based on species classification information.
 
 ##### abysw.GC.pl
-Calculate GC distribution.
+Calculating the distribution of GC content.
+
 
 ##### abysw.intron.stat.pl
-Calculate intron content.
+Computing the intron content.
 
 ##### abysw.select.class61.pl, abysw.select.class.losslw.pl, abysw.select.class.pl
-Calculate specific genefamily in Extend Data Fig.8a.
+Determining specific gene families in Extend Data Fig.8a.
 
 ##### abysw.wgdicol.pl
-Change the color of each chromosomes when useing wgdi.
+Modifying the color of each chromosome when using wgdi.
 
 ##### run_enrich.sh
-GO enrichment
+Performing GO enrichment analysis.
 
 ### Citation:
-please cite the paper: An unusual chromosomal remodeling and sexual transition in plants.
+Please cite the following paper: "Complex sex chromosome evolution in a haploid plant lineage."
